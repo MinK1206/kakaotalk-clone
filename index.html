@@ -6,13 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Friends</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
+  <header class="top__header">
     <div class="header__top">
-      <div class="header__top__column"><i class="fa fa-plane"></i><i class="fa fa-wifi"></i></div>
+      <div class="header__top__column">
+        <i class="fa fa-plane"></i><i class="fa fa-wifi"></i>
+      </div>
       <div class="header__top__column">
         <span class="header__top__time">4:08</span>
+      </div>
       <div class="header__top__column">
         <i class="fa fa-moon-o"></i>
         <i class="fa fa-bluetooth-b"></i>
@@ -33,7 +37,54 @@
       </div>
     </div>
 </header>
+<main class="Friends">
+  <div class="search-bar">
+    <i class="fa fa-search"></i>
+    <input type="text" placeholder="Find, friends, chats, Plus Friends">
+  </div>
+  <section class="friends__section">
+    <header class="friends__section-header">
+      <h6 class="friends__section-title">My Profile</h6>
+    </header>
+    <div class="friends__section-rows">
+      <div class="friends___section-row">
+        <img src= "images/btob.jpg" alt= "">
+        <span class="friends__senction-name">Minseo Kim</span>
+      </div>
+      <div class="friends___section-row">
+        <img src= "images/btob.jpg" alt= "">
+        <span class="friends__senction-name">Friends' Names display</span>
+      </div>
+  </section>
+<section class="friends__section">
+  <header class="friends__section-header"
+  <h6 class="friends__section-title">Friends</h6>
+</header>
+<div class="riends__section-rows">
+<div class="friends__section-column">
+  <img src="images/tom.jpg" alt="">
+  <span class="friends__section-name">Tom Holland</span>
+</div>
+<span class="friends__section-tagline">Life is short. So live your life.</span>
+</div>
   <main></main>
-  <nav></nav>
+<nav class="tab-bar">
+  <a href="index.html" class="tab-bar__tab">
+
+    <i class="fa fa-user"></i><span class="tab-bar__title">Friends</span>
+  </a>
+  <a href="chats.html" class="tab-bar__tab">
+
+    <i class="fa fa-comment"></i><span class="tab-bar__title">Chats</span>
+  </a>
+  <a href="find.html" class="tab-bar__tab">
+
+    <i class="fa fa-search"></i><span class="tab-bar__title">Find</span>
+  </a>
+  <a href="more.html" class="tab-bar__tab">
+
+    <i class="fa fa-ellipsis-h"></i><span class="tab-bar__title">More</span>
+  </a>
+  </nav>
 </body>
 </html>
